@@ -1,7 +1,8 @@
 __author__ = "alex"
 from django.db import models
-#import type
+from dynamic_model.yamls import doc
 
+print doc
 
 def install(model):
     from django.core.management import sql, color
