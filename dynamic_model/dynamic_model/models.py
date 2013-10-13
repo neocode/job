@@ -5,17 +5,10 @@ from dynamic_model.yamls import doc
 print doc
 
 
-def install(model):
-    from django.core.management import sql, color
-    from django.db import connection
-
-    style = color.no_style()
-
-    cursor = connection.cursor()
-    statements = sql.sql_create(model, style, connection)
-    print statements
-    for sql in statements:
-        cursor.execute(sql)
+for i in doc.keys():
+    print "|", i
+    if i == "field":
+        print doc.get(i)
 
 
 names = ('first', 'second', 'third', 'fourth')
@@ -26,25 +19,27 @@ for i in names:
     dct = {
         "__module__": "dynamic_model.models",
         "title": models.CharField(max_length=255),
-        "content": models.TextField()
+        "content": models.TextField(),
+        "__unicode__": lambda self: self.title
     }
     model = type(i, (models.Model,), dct)
     model_list.append(model)
-    install(model)
+    #install(model)
 
 print model_list
 
 dct = {
     "__module__": "dynamic_model.models",
     "title": models.CharField(max_length=255),
-    "first": models.ForeignKey(model_list[0]),
-    "second": models.ForeignKey(model_list[1]),
-    "third": models.ForeignKey(model_list[2]),
-    "fourth": models.ForeignKey(model_list[3]),
+    "first": models.ManyToManyField(model_list[0]),
+    "second": models.ManyToManyField(model_list[1]),
+    "third": models.ManyToManyField(model_list[2]),
+    "fourth": models.ManyToManyField(model_list[3]),
+    "__unicode__": lambda self: self.title
 }
 supermodel = type('This_new', (models.Model,), dct)
 supermodel_list.append(supermodel)
-install(supermodel)
+#install(supermodel)
 
 
 
