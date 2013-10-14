@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da00b1a4-3ffc-4639-8f8e-f66c6e804226" name="Default" comment="" />
+    <list default="true" id="da00b1a4-3ffc-4639-8f8e-f66c6e804226" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dynamic_model/dynamic_model/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dynamic_model/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dynamic_model/dynamic_model/views.py" />
+    </list>
     <ignored path="task2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/admin.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381667539655" ignored="false" />
     <file path="/models.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381703321095" ignored="false" />
     <file path="/settings.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381409962728" ignored="false" />
     <file path="/yamls.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381423751521" ignored="false" />
-    <file path="/Dummy.txt" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381703527858" ignored="false" />
+    <file path="/Dummy.txt" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381749745922" ignored="false" />
+    <file path="/views.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381764168501" ignored="false" />
+    <file path="/forms.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381761584221" ignored="false" />
+    <file path="/urls.py" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381756656098" ignored="false" />
+    <file path="/index.html" changelist="da00b1a4-3ffc-4639-8f8e-f66c6e804226" time="1381764068113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +36,45 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="23" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
+            <state line="163" column="44" selection-start="5581" selection-end="5581" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="76" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dynamic_model/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#20#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../dynamic_model/static/data.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="41" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="3" column="41" selection-start="84" selection-end="84" vertical-scroll-proportion="0.08287293">
               <folding />
             </state>
           </provider>
@@ -55,7 +92,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="65" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+            <state line="16" column="29" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="58" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4789916">
+            <state line="12" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#20#48#0" expanded="true" />
               </folding>
@@ -100,20 +137,24 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/../dynamic_model/fixtures/data" />
-        <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/settings.py" />
         <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/data" />
         <option value="$PROJECT_DIR$/../dynamic_model/fixtures/yamls.py" />
         <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/yamls.py" />
         <option value="$PROJECT_DIR$/../dynamic_model/static/data.yml" />
         <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/admin.py" />
         <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/models.py" />
+        <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/urls.py" />
+        <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/forms.py" />
+        <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/settings.py" />
+        <option value="$PROJECT_DIR$/../dynamic_model/dynamic_model/views.py" />
+        <option value="$PROJECT_DIR$/../dynamic_model/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -170,6 +211,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamic_model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dynamic_model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -181,11 +236,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dynamic_model" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -236,27 +292,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="dynamic_model" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,6 +311,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="dynamic_model" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -355,14 +411,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="52" width="1366" height="716" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26823708" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27279636" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,27 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/yamls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="65" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="1" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0">
@@ -509,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="65" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/yamls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
@@ -523,17 +551,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/static/data.yml">
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="23" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#20#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,12 +567,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/models.py">
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="58" selection-start="842" selection-end="842" vertical-scroll-proportion="0.4789916">
+        <state line="16" column="29" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="76" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="44" selection-start="5581" selection-end="5581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="236" selection-end="236" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/dynamic_model/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#20#48#0" expanded="true" />
+            <element signature="e#20#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dynamic_model/static/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="84" selection-end="84" vertical-scroll-proportion="0.08287293">
+          <folding />
         </state>
       </provider>
     </entry>

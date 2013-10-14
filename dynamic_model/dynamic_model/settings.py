@@ -121,10 +121,13 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'dynamic_model'
+    'dynamic_model',
+    'south',
+    'django_tables2'
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
@@ -154,3 +157,9 @@ LOGGING = {
         },
     }
 }
+
+import django.conf.global_settings as DEFAULT_SETTINGS
+
+TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + (
+    'django.core.context_processors.request',
+)
